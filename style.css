@@ -1,0 +1,93 @@
+body{
+    height: 100%;
+}
+        
+
+.mainHeader{
+    background-color: rgb(29, 29, 29);
+}
+.logoP{
+    margin-left: 5%;
+}
+.closingButton{
+    width: 100%;
+    height: 20px;
+    color: rgb(201, 201, 201);
+}
+
+.closingButton:hover{
+    background-color: #fff;
+}
+.backImgNft{
+    width: 100%;
+}
+.nftsTitle{
+    text-align: center;
+    color: rgb(255, 124, 17);
+    text-shadow: 0 0 1px #000;
+}
+  .card-image{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr; 
+    align-items: center;
+    justify-items: center;
+}
+.subContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mainHeader ul li a:hover{
+    color: rgb(252, 143, 54);
+    transition: 0.4s;
+}
+.card{
+    width: 400px;
+    background-color:rgb(27, 27, 27);
+    color: #fff;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 10px !important;
+}
+.page-footer{
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 300%;
+}
+#centerCon{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px #000;
+    font-size: 70px;
+    top: 30%;
+    left: 27%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.aboutUs{
+    width: 100%;
+    height: 100%;
+
+
+}
+.aboutUsContent{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+}
+.nftQu{
+    color: rgb(65, 168, 247);
+    font-size: x-large;
+    text-shadow: 0 0 1px #000;
+}
